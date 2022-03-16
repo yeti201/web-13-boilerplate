@@ -56,7 +56,7 @@ const handleFilter = (e)=>{
       </select>
       <div className = "movies-list">
         <table border="0">
-        {allMovie.map(a => {
+        {movieStore.map(a => {
          return (
           <tr>
             <th>Movie Name:</th>
