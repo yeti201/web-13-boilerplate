@@ -1,0 +1,8 @@
+.movies-list{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
