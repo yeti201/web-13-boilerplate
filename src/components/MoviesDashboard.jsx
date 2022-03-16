@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import{getMovieData,filterByGenre} from "../Redux/actions"
 import "./MoviesDashboard.css"
-import { store } from "../Redux/store";
 
 const genres = ["Comedy", "Thriller", "Drama", "Documentary", "Children"];
 
