@@ -58,11 +58,11 @@ const handleFilter = (e)=>{
         <table border="0">
         {movieStore.map(a => {
          return (
-          <tr>
+          <tr onClick={() => {
+            navigate(`/movies/${a.id}`)
+          }}>
             <th>Movie Name:</th>
-            <td onClick={() => {
-              navigate(`/movies/${a.id}`)
-            }}>{a.movie_name}</td>
+            <td>{a.movie_name}</td>
             <th>Genre:</th>
             <td>{a.genre}</td>
             <th>Release:</th>
